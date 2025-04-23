@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risk Management Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>📊 Risk Management Calculator</h2>
+
+    <label for="capital">Capital (₹)</label>
+    <input type="number" id="capital" placeholder="e.g. 10000">
+
+    <label for="riskPercent">Risk % per trade</label>
+    <input type="number" id="riskPercent" placeholder="e.g. 1">
+
+    <label for="entry">Entry Price (₹)</label>
+    <input type="number" id="entry" placeholder="e.g. 200">
+
+    <label for="stopLoss">Stop Loss Price (₹)</label>
+    <input type="number" id="stopLoss" placeholder="e.g. 195">
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
